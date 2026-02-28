@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexiEarn - Start Earning Money Online Today</title>
+    <link rel="stylesheet" href="styles_final.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body onload="initCounters()">
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/254764171212" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Earn Now Float Button -->
+    <a href="https://earntrix.com/user/register.php?ref=BELDENKENY" class="earn-now-float" target="_blank" title="Start Earning Now">
+        <i class="fas fa-rocket"></i>
+        Earn Now
+    </a>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-wallet"></i>
+                <span>FlexiEarn</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#tasks">Earning Tasks</a></li>
+                <li><a href="#testimonials">Success Stories</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <button id="themeToggle" class="theme-toggle" title="Toggle Dark/Light Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Trusted by 20,000+ Happy Members Worldwide</span>
+                </div>
+                <h1>Turn Your Time Into <span class="highlight">Real Money</span> From Home</h1>
+                <p class="hero-subtitle">Join our exclusive earning community. Complete simple online tasks and earn consistent income. Get started today with our guided onboarding.</p>
+                <div class="hero-buttons">
+                    <a href="https://earntrix.com/user/register.php?ref=BELDENKENY" class="btn btn-primary btn-medium" target="_blank">
+                        <i class="fas fa-rocket"></i>
+                        Get Started Now
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Task Completed +$5.50</span>
+                </div>
+                <div class="hero-info-card">
+                    <div class="info-card-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <a href="https://earntrix.com/user/register.php?ref=BELDENKENY" class="btn btn-primary btn-medium" target="_blank">
+                    <div class="info-card-content">
+                        <span class="info-card-title">Start Earning Today</span>
+                        <span class="info-card-subtitle">Join 20,000+ members</span>
+                    </div>
+                    </a>
+                    <div class="info-card-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-gift"></i>
+                    <span>Bonus Earned +$12.00</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-wallet"></i>
+                    <span>Balance: $247.50</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges Section -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="trust-badges">
+                <div class="trust-item">
+                    <i class="fas fa-globe"></i>
+                    <div class="trust-text">
+                        <strong><span class="counter" data-target="156">0</span>+</strong>
+                        <span>Countries</span>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-users"></i>
+                    <div class="trust-text">
+                        <strong><span class="counter" data-target="48753">0</span>+</strong>
+                        <span>Members</span>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-sack-dollar"></i>
+                    <div class="trust-text">
+                        <strong>$<span class="counter" data-target="2847">0</span>K+</strong>
+                        <span>Paid Total</span>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <div class="trust-text">
+                        <strong>$<span class="counter" data-target="158">0</span>K+</strong>
+                        <span>Monthly</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Simple Process</span>
+                <h2>How It Works</h2>
+                <p>Getting started is easy. Follow these simple steps to begin your earning journey today.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3>Register Account</h3>
+                    <p>Sign up through our exclusive link. We'll guide you through the quick process.</p>
+                </div>
+                <div class="step-connector">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Choose Tasks</h3>
+                    <p>Browse our 8+ earning options and pick tasks that suit you best.</p>
+                </div>
+                <div class="step-connector">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <h3>Complete & Earn</h3>
+                    <p>Finish simple tasks and watch your earnings grow instantly.</p>
+                </div>
+                <div class="step-connector">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">04</div>
+                    <div class="step-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>Get Paid</h3>
+                    <p>Cash out via 10+ payment methods within 24 hours!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Earning Tasks Section -->
+    <section id="tasks" class="tasks-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Multiple Income Streams</span>
+                <h2>Ways to Earn Money</h2>
+                <p>Discover 8+ exciting ways to earn money from anywhere. Choose what fits your schedule!</p>
+            </div>
+            <div class="tasks-grid">
+                <div class="task-card">
+                    <div class="task-image">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgakBsy27GcCaNIgtRqQjfzKh2BJ30J2b-5o1wrVBKKK3VCPjKraY9W6nGNzlycl55pu37qTdR-typeMybpOiSeWCT0tQ3ePUMOtyDwiYkO6fqPQtVerf3BCGjhacMgaV4yX7CKQScHs0BImgk877OiWL9D3YaJuTbcxYczjr45PIxX5FEHc3zepgdD35Fi/s1536/1006860975.png" alt="Chatting people smiling">
+                    </div>
+                    <div class="task-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Chatting with Lonely Foreigners</h3>
+                    <p>Make new friends from around the world! Simple conversations that pay you for your time and companionship.</p>
+                    <div class="task-earning">
+                        <span class="earning-label">Earn up to</span>
+                        <span class="earning-amount">$15/hour</span>
+                    </div>
+                </div>
+                <div class="task-card">
+                    <div class="task-image">
+                        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=250&fit=crop" alt="Music">
+                    </div>
+                    <div class="task-icon" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Music Streaming</h3>
+                    <p>Listen to your favorite music and earn! Get paid for streaming songs and creating playlists.</p>
+                    <div class="task-earning">
+                        <span class="earning-label">Earn up to</span>
+                        <span class="earning-amount">$8/hour</span>
+                    </div>
+                </div>
+                <div class="task-card">
+                    <div class="task-image">
+                        <img src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=400&h=250&fit=crop" alt="Voice">
+                    </div>
+                    <div class="task-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Share Your Voice</h3>
+                    <p>Record voice messages, narration, or singing! Use your voice to earn money from home.</p>
+                    <div class="task-earning">
+                        <span class="earning-label">Earn up to</span>
+                        <span class="earning-amount">$20/session</span>
+                    </div>
+                </div>
+                <div class="task-card">
+                    <div class="task-image">
+                        <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=400&h=250&fit=crop" alt="Rewards">
+                    </div>
+                    <div class="task-icon" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Daily Surprises</h3>
+                    <p>Open daily rewards, complete mini-tasks, and unlock surprise bonuses every single day!</p>
+                    <div class="task-earning">
+                        <span class="earning-label">Earn up to</span>
+                        <span class="earning-amount">$50/day</span>
+                    </div>
+                </div>
+                <div class="task-card">
+                    <div class="task-image">
+                        <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=400&h=250&fit=crop" alt="Finance">
+                    </div>
+                    <div class="task-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Financial Freedom</h3>
+                    <p>Learn and earn through financial education. Complete courses and earn while building wealth knowledge.</p>
+                    <div class="task-earning">
+                        <span class="earning-label">Earn up to</span>
+                        <span class="earning-amount">$100/course</span>
+                    </div>
+                </div>
+                <div class="task-card">
+                    <div class="task-image">
+                        <img src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&h=250&fit=crop" alt="Surveys">
+                    </div>
+                    <div class="task-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                        <i class="fas fa-poll"></i>
+                    </div>
+                    <h3>Paid Surveys</h3>
+                    <p>Share your opinions and get paid! Simple surveys that take 5-15 minutes each.</p>
+                    <div class="task-earning">
+                        <span class="earning-label">Earn up to</span>
+                        <span class="earning-amount">$10/survey</span>
+                    </div>
+                </div>
+                <div class="task-card">
+                    <div class="task-image">
+                        <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=400&h=250&fit=crop" alt="Videos">
+                    </div>
+                    <div class="task-icon" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Video Watching</h3>
+                    <p>Watch videos, ads, and content. Earn money while enjoying entertainment.</p>
+                    <div class="task-earning">
+                        <span class="earning-label">Earn up to</span>
+                        <span class="earning-amount">$5/video</span>
+                    </div>
+                </div>
+                <div class="task-card">
+                    <div class="task-image">
+                        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&h=250&fit=crop" alt="Referral">
+                    </div>
+                    <div class="task-icon" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Referral Program</h3>
+                    <p>Invite friends and earn 20% of their earnings forever! Build your passive income network.</p>
+                    <div class="task-earning">
+                        <span class="earning-label">Earn up to</span>
+                        <span class="earning-amount">Unlimited</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tasks-cta">
+                <a href="https://earntrix.com/user/register.php?ref=BELDENKENY" class="btn btn-primary btn-large" target="_blank">
+                    <i class="fas fa-rocket"></i>
+                    Start Earning Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Why Choose Us</span>
+                <h2>Why Thousands Choose FlexiEarn</h2>
+                <p>We provide the best earning experience with transparency, reliability, and excellent support.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-percentage"></i>
+                    </div>
+                    <h3>High Payment Rates</h3>
+                    <p>We offer the highest payment rates in the industry. Earn more for less time!</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Instant Tasks</h3>
+                    <p>New tasks available every minute. Never run out of earning opportunities.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Progress Tracking</h3>
+                    <p>Real-time dashboard shows your earnings and pending payments at a glance.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>100% Legitimate</h3>
+                    <p>Registered company with proper licenses. Thousands of verified positive reviews.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Success Stories</span>
+                <h2>What Our Members Say</h2>
+                <p>Real stories from real people who transformed their financial situation.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"I was skeptical at first, but this platform changed my life. I earn over $500/month from home chatting with people. The tasks are easy!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JM</div>
+                        <div class="author-info">
+                            <strong>James M.</strong>
+                            <span>Member since 2023</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-earnings">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Earned: $2,450</span>
+                    </div>
+                </div>
+                <div class="testimonial-card featured">
+                    <div class="featured-badge">Top Earner</div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The music streaming is amazing! I earn $800/month just listening to songs I love. Financial freedom is now achievable!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SK</div>
+                        <div class="author-info">
+                            <strong>Sarah K.</strong>
+                            <span>Member since 2022</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-earnings">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Earned: $5,780</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The referral program is incredible! I invited 20 friends and now earn passive income. It's like having a second salary!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RO</div>
+                        <div class="author-info">
+                            <strong>Robert O.</strong>
+                            <span>Member since 2023</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-earnings">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Earned: $3,120</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Questions Answered</span>
+                <h2>Frequently Asked Questions</h2>
+                <p>Got questions? Chat with us on WhatsApp for more information.</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <span>How do I get started?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Click "Get Started Now" and register through our exclusive link. We'll guide you through the process. You can also WhatsApp us for personal help!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <span>How much can I earn?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Earnings vary by effort. Most members earn $100-$500/month. Top earners can make $1,000+. The more tasks you complete, the more you earn!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <span>When and how do I get paid?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We process payments within 24 hours! Choose from 10+ methods: PayPal, bank transfer, M-Pesa, crypto, gift cards & more.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <span>Is this legitimate?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We're a registered company with proper licenses. Over $2 million paid to 20,000+ happy members worldwide.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <span>Do I need special skills?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No! If you can use a smartphone or computer, you can start earning. We provide tutorials for every task type.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        <span>How does referral program work?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Share your unique link and earn 20% of your friends' earnings forever! No limit on invites. Top referrers earn thousands monthly!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Earning Journey?</h2>
+                <p>Join 20,000+ members already earning money from home. Your financial freedom starts here!</p>
+                <div class="cta-buttons">
+                    <a href="https://earntrix.com/user/register.php?ref=BELDENKENY" class="btn btn-white btn-medium" target="_blank">
+                        <i class="fas fa-rocket"></i>
+                        Create Free Account
+                    </a>
+                </div>
+                <p class="cta-note"><i class="fas fa-check-circle"></i> Free to join • No credit card required • 24/7 Support</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <i class="fas fa-wallet"></i>
+                        <span>FlexiEarn</span>
+                    </a>
+                    <p>Your trusted partner for earning money online. Join thousands worldwide achieving financial freedom through simple online tasks.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-grid">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#how-it-works"><i class="fas fa-chevron-right"></i> How It Works</a></li>
+                            <li><a href="#tasks"><i class="fas fa-chevron-right"></i> Earning Tasks</a></li>
+                            <li><a href="#testimonials"><i class="fas fa-chevron-right"></i> Success Stories</a></li>
+                            <li><a href="#faq"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Help Center</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Terms of Service</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact Us</h4>
+                        <ul class="contact-list">
+                            <li><a href="https://wa.me/254764171212" target="_blank"><i class="fab fa-whatsapp"></i> +254 764 171 212</a></li>
+                            <li><a href="https://wa.me/254764171212" target="_blank"><i class="fas fa-headset"></i> 24/7 WhatsApp Support</a></li>
+                            <li><a href="mailto:support@flexiearn.com"><i class="fas fa-envelope"></i> support@flexiearn.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 FlexiEarn. All rights reserved.</p>
+                    <div class="footer-badges">
+                        <span><i class="fas fa-shield-alt"></i> Secure</span>
+                        <span><i class="fas fa-lock"></i> SSL Protected</span>
+                        <span><i class="fas fa-check-circle"></i> Verified</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script_updated.js"></script>
+</body>
+</html>
